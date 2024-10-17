@@ -1,0 +1,15 @@
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-center {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+/* Override theme's max-height */
+.reveal section pre code {
+    max-height: 100%;
+}
