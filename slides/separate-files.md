@@ -1,12 +1,12 @@
 ## Fichiers séparés
 
-<pre><code data-trim data-noescape data-line-numbers="1-4|2|3|4" data-fragment-index="1" style="width: 100%">
+<pre><code data-trim data-noescape data-line-numbers="1-4|2|3|4" data-fragment-index="1">
 website/
     index.html
     style.css
     app.js
 </code></pre>
-<div class="r-stack" style="width: 100%">
+<div class="r-stack">
     <pre class="fragment fade-in-then-out" data-fragment-index="1">
         <code data-trim data-noescape data-line-numbers="6,10">
 &lt;!DOCTYPE html&gt;

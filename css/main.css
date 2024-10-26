@@ -9,7 +9,23 @@
     align-content: center;
 }
 
+.grayscale {
+    filter: grayscale(1);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
 /* Override theme's max-height */
 .reveal section pre code {
     max-height: 100%;
+    width: 40em;
+}
+
+.reveal section pre code.error {
+    background: #aa2233;
+}
+
+.reveal section pre {
+    width: fit-content;
 }
